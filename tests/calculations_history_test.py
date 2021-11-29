@@ -12,7 +12,7 @@ def clear_history_fixture():
 def setup_addition_calculation_fixture():
     """define a function that will run each time you pass it to a test, it is called a fixture"""
     # pylint: disable=redefined-outer-name
-    values = (1, 2)
+    values = (2, 1)
     addition = Addition(values)
     Calculations.add_calculation(addition)
 
